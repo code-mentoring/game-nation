@@ -5,8 +5,9 @@ Using socket.io to communicate between the two.
 
 ## Dev Environment setup 
 Requirements: 
-    * python3 (3.9.0) and pip (20.1.1)
-    * npm (6.14.8)
+
+* python3 (3.9.0) and pip (20.1.1)
+* npm (6.14.8)
 
 Instructions may vary for Windows and MacOS. Specific versions may not be required.
 
