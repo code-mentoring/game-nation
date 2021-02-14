@@ -68,8 +68,7 @@ Instructions may vary for Windows and MacOS
 9. If all looks okay you can kill the client and server
     ctrl-C (on CLI usually)
 
-### Install npm express and socket.io  
-   (still in your poject directory) 
+### Install npm express and socket.io (still in project dir)
 9. Install socket io
     ```
     npm install socket.io
