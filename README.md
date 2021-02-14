@@ -7,9 +7,8 @@ Using socket.io to communicate between the two.
 Requirements: 
     * python3 (3.9.0) and pip (20.1.1)
     * npm (6.14.8)
-    * (specific versions may not be required)
 
-Instructions may vary for Windows and MacOS
+Instructions may vary for Windows and MacOS. Specific versions may not be required.
 
 ### Get the source
 1. Fork this repo
