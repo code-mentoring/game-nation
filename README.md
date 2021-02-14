@@ -84,8 +84,10 @@ Again from your project directory with activated virtual environment)
     ```
     python3 test-client.py
     ```
+    ```
     CLIENT: "connection established"
     SERVER: "a user connected"
+    ```
 13. Cool, looks like you have (a very simple) python client application talking to a javascript server via socketio.
     
 
