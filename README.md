@@ -46,7 +46,11 @@ Note: Windows users might need to append `py -m` to some of the below commands.
     ```
     source bin/activate
     ```
-    Windows:
+    Windows(PowerShell):
+    ```
+    Scripts\activate.ps1
+    ```
+    Windows(cmd):
     ```
     call Scripts\activate
     ```
