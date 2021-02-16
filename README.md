@@ -91,4 +91,8 @@ Again from your project directory with activated virtual environment)
     ```
 13. Cool, looks like you have (a very simple) python client application talking to a javascript server via socketio.
     
-
+### Test tkinter is installed correctly
+14. Python should have tkinter installed by default. This command will output error if it is not correctly installed.
+    ```
+    python3 text-gui.py
+    ```
