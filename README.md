@@ -108,7 +108,7 @@ Again from your project directory with activated virtual environment)
 ### Test tkinter is installed correctly
 14. Python should have tkinter installed by default. This command will output error if it is not correctly installed.
     ```
-    python3 text-gui.py
+    python3 test-gui.py
     ```
 
 ### Keep your fork repo up to date
