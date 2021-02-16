@@ -9,7 +9,10 @@ Requirements:
 * python3 (3.9.0) and pip (20.1.1)
 * npm (6.14.8)
 
-Instructions may vary for Windows and MacOS. Specific versions may not be required.
+Note: 
+* pip is installed with python automatically.
+* Instructions may vary for Windows and MacOS. 
+* Specific versions may not be required.
 
 ### Get the source
 1. Fork this repo
@@ -25,7 +28,10 @@ Instructions may vary for Windows and MacOS. Specific versions may not be requir
     You should see at least some "test-*" files and README.md
 
 ### Install Virtualenv and Socketio
-3. Get virtualenv (this will help isolate installations to be project specific)
+
+Note: Windows users might need to append `py -m` to some of the below commands.
+
+3. Get virtualenv (this will help isolate installations to be project specific).
     ```
     pip install virtualenv
     ```
@@ -33,11 +39,19 @@ Instructions may vary for Windows and MacOS. Specific versions may not be requir
     ```
     virtualenv -p /usr/bin/python3 .
     ```
-    You should see new directories bin and lib now in your project dir.
+    You should see new directories `bin` and `lib` now in your project dir.
+    Windows users should see `Lib` and `Scripts` instead.
+    
 5. Activate your virtual env (once activated installations will be local to this folder)
     ```
     source bin/activate
     ```
+    Windows:
+    ```
+    call Scripts\activate
+    ```
+    Note: `source` command reads and executes commands from given FILENAME; Windows equivalent is `call`.
+    
 6. Install socketio for python (server, client and dependencies)
     ```
     pip install python-socketio
