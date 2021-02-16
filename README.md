@@ -110,3 +110,6 @@ Again from your project directory with activated virtual environment)
     ```
     python3 text-gui.py
     ```
+
+### Keep your fork repo up to date
+* See `How to keep a fork repo up to date?` in our [FAQ page](https://code-mentoring.github.io/faq/).
