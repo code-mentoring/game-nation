@@ -1,5 +1,6 @@
 bin/*
 lib/*
+scripts/*
 node_modules/*
 include/*
 __pycache__/*
