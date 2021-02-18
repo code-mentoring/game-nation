@@ -2,6 +2,7 @@ import tkinter as tk
 
 from WelcomeScreen import WelcomeScreen
 from ServerScreen import ServerScreen
+from Client import Client
 
 class MainWindow(tk.Frame):
     def __init__(self, master= None):
@@ -12,6 +13,8 @@ class MainWindow(tk.Frame):
         self.serverScreen = ServerScreen(self, master)
         self.welcomeScreen.show()
 
+        self.client = Client()
+
     def goToServerScreen(self):
         print("Going to server screen")
         self.welcomeScreen.hide()
@@ -21,3 +24,6 @@ class MainWindow(tk.Frame):
         print("Going to welcome screen")
         self.serverScreen.hide()
         self.welcomeScreen.show()
+
+    def checkLocalServer(self):
+        self.client.check_server("localhost", 5000)
