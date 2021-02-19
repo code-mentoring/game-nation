@@ -1,5 +1,7 @@
 import tkinter as tk
 
+# Welcome screen will display basic server config info
+# And buttons to go to config screen or connect to server
 class WelcomeScreen(tk.Frame):
     def __init__(self, parent=None, master=None):
         tk.Frame.__init__(self,master)

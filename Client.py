@@ -1,8 +1,10 @@
 import socket
 
+# Client will be used to talk to server
 class Client:
     def __init_(self):
         pass
+
     def check_server(self,address, port) -> bool:
         # Create a TCP socket
         with socket.socket() as s:
